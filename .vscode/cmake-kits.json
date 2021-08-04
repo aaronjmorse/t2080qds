@@ -1,0 +1,7 @@
+[
+    {
+        "name": "VXSDK_WINDOWS",
+        "environmentSetupScript": "j:\\Windriver\\Studio_21.06_projects_base\\SDKs\\t2080qds\\VXSDK_WINDOWS/sdkenv.bat",
+        "toolchainFile": "j:\\Windriver\\Studio_21.06_projects_base\\SDKs\\t2080qds\\VXSDK_WINDOWS/vxsdk/sysroot/mk/dkm.toolchain.cmake"
+    }
+]

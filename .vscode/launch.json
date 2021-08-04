@@ -1,0 +1,27 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "t2080qds.out_wrdbg_Hive_t2080qds:11534",
+            "type": "wrdbg",
+            "request": "launch",
+            "target": "t2080qds.out",
+            "cwd": "j:\\Windriver\\Studio_21.06_projects_base\\workspace\\t2080qds\\build",
+            "valuesFormatting": "parseText",
+            "printCalls": false,
+            "sdkPath": "j:/Windriver/Studio_21.06_projects_base/SDKs/t2080qds/VXSDK_WINDOWS",
+            "noDebug": false,
+            "trace": false,
+            "targetIp": "${command:DevStudio.command.project.getMiDebuggerAddress}",
+            "targetType": "dkm",
+            "dkmEntrypoint": "main",
+            "environment": [
+                {
+                    "name": "connection",
+                    "value": "Hive_t2080qds:11534"
+                }
+            ],
+            "preLaunchTask": "${command:DevStudio.command.project.buildBeforeLaunch}"
+        }
+    ]
+}
